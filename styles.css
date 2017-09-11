@@ -1,0 +1,59 @@
+html,body {
+  font-family: 'Open Sans', sans-serif;
+  background: #191919;
+}
+
+a {
+  color: #28B78D;
+}
+
+.nav {
+  background: #191919;
+  text-transform: uppercase;
+}
+
+.nav .container {
+  background: #191919;
+}
+
+a.nav-title.nav-item {
+  color: #28B78D;
+}
+
+a.nav-item {
+  color: #CCCCCC;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+a.nav-item:hover {
+  color: #28B78D;
+}
+
+.container.projects-page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.section {
+  background: #191919;
+}
+
+.column {
+  margin: 10px;
+  height: 200px;
+  cursor: default;
+  background: #2A2A2A;
+  color: #9B9B9B;
+}
+
+.project-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #CCCCCC;
+  letter-spacing: 2px;
+}
+
+.column li {
+  font-size: 14px;
+}
