@@ -1,0 +1,172 @@
+html,body {
+  font-family: 'Open Sans', sans-serif;
+  background: #232429;
+}
+
+a {
+  color: #00C66B;
+  transition: ease all 0.2s;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+p {
+  font-size: 14px;
+  color: #9B9B9B;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #00C66B;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #00C66B;
+  font-size: 22px;
+}
+
+.nav {
+  background: #2F2F34;
+  text-transform: uppercase;
+}
+
+.nav .container {
+  background: #2F2F34;
+}
+
+a.nav-title.nav-item {
+  color: #00C66B;
+}
+
+.nav-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.nav-toggle span {
+  background: #00C66B;
+}
+
+.nav-menu {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+@media screen and (min-width: 1008px){
+  .nav-menu {
+    box-shadow: none;
+  }
+}
+
+.nav-menu a.nav-item {
+  color: #9B9B9B;
+  font-size: 14px;
+  letter-spacing: 2px;
+  background: #2F2F34;
+  border-top: 1px solid #232429;
+}
+
+.nav-toggle:hover {
+  background-color: #2F2F34;
+}
+
+.container.projects-page,
+.resume-container {
+  height: 100%;
+  padding: 24px;
+  margin: 0 auto;
+  padding: 24px;
+  max-width: 960px;
+}
+
+.sidebar {
+  float: left;
+  width: 33%;
+  height: 100%;
+  background: #2F2F34;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  position: relative;
+  height: 1000px;
+}
+
+.profile-image {
+  overflow: hidden;
+  border-bottom: 1px solid #232429;
+  padding-bottom: 24px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.sidebar-content {
+  padding: 24px;
+}
+
+.sidebar-link {
+  margin-top: 12px;
+}
+
+.skills {
+  border-top: 1px solid #232429;
+  padding-top: 24px;
+  margin-top: 24px;
+}
+
+.sidebar-social-links-container {
+  background: #00C66B;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 24px;
+  text-align: center;
+}
+
+.right {
+  background: #232429;
+}
+
+@media screen and (min-width: 1008px){
+  .right {
+    float: right;
+    width: 67%;
+    padding-left: 24px;
+  }
+}
+
+.section {
+  cursor: default;
+  color: #9B9B9B;
+  background: #2F2F34;
+  border-top: 5px solid #00C66B;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+@media screen and (min-width: 1008px){
+  .section {
+    margin-right: 24px;
+  }
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.fa {
+  color: #232429;
+  transition: ease all 0.2s;
+}
+
+.fa:hover {
+  color: #29292E;
+}

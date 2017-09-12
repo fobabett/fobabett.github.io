@@ -1,0 +1,38 @@
+html,body{
+  height: 100%;
+  background: #232429;
+}
+
+.container {
+  position: relative;
+}
+
+.download-resume {
+  transform: rotate(-90deg);
+  position: fixed;
+  top: 127px;
+  right: -51px;
+  background: #00C66B;
+  color: #232429;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: bold;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.section div {
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.section.projects div {
+  border-bottom: 1px solid #00C66B;
+}
+
+h3, .date {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #AFAFAF;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
