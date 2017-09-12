@@ -11,7 +11,7 @@ html,body{
   transform: rotate(-90deg);
   position: fixed;
   top: 127px;
-  right: -51px;
+  right: -66px;
   background: #00C66B;
   color: #232429;
   font-size: 12px;
@@ -23,6 +23,10 @@ html,body{
 .section div {
   padding-bottom: 24px;
   padding-top: 24px;
+}
+
+.section.projects div:last-child {
+  border-bottom: none;
 }
 
 .section.projects div {

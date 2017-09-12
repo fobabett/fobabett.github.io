@@ -31,6 +31,14 @@ h2 {
   font-size: 22px;
 }
 
+a,h1,h2 {
+  letter-spacing: 2px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
 .nav {
   background: #2F2F34;
   text-transform: uppercase;
@@ -117,6 +125,10 @@ img {
   border-top: 1px solid #232429;
   padding-top: 24px;
   margin-top: 24px;
+}
+
+.skills h2 {
+  margin-bottom: 12px;
 }
 
 .sidebar-social-links-container {
