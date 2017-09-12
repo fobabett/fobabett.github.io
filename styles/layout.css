@@ -1,5 +1,5 @@
 html,body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #232429;
 }
 
@@ -13,6 +13,7 @@ a {
 p {
   font-size: 14px;
   color: #9B9B9B;
+  font-weight: 300;
 }
 
 h1 {
@@ -20,7 +21,7 @@ h1 {
   font-weight: bold;
   color: #00C66B;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 24px;
 }
 
