@@ -29,8 +29,15 @@
   margin-left: 2px;
 }
 
-.column a {
-  margin-right: 12px;
+.column p.credits {
+  margin-bottom: 0;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.credits a {
+  font-size: 12px;
+  text-transform: none !important;
 }
 
 .section.columns { 
@@ -38,6 +45,7 @@
   background: transparent;
   border-top: none;
   box-shadow: none;
+  margin-top: 12px;
 }
 
 .column:hover {
@@ -51,6 +59,10 @@
   color: #AFAFAF;
   font-size: 12px;
   margin-bottom: 12px;
+}
+
+.project-link {
+  margin-right: 10px;
 }
 
 .tags {

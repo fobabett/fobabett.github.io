@@ -101,13 +101,14 @@ a.nav-title.nav-item {
   background: #2F2F34;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
   position: relative;
-  height: 1000px;
+  height: 600px;
 }
 
 .profile-image {
   overflow: hidden;
   border-bottom: 1px solid #232429;
   padding-bottom: 24px;
+  height: 300px
 }
 
 img {
