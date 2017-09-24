@@ -8,9 +8,21 @@
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.css">
     <link rel="stylesheet" type="text/css" href="styles/layout.css">
     <link rel="stylesheet" type="text/css" href="styles/projects.css">
+    <link rel="stylesheet" type="text/css" href="styles/terminal.css">
   </head>
   <body>
-    <nav class="nav is-hidden-desktop">
+    <div class="terminal">
+      <div class="terminal-header">
+        <ul class="terminal-buttons">
+          <li class="terminal-button close"></li>
+          <li class="terminal-button hide"></li>
+          <li class="terminal-button expand"></li>
+        </ul>
+      </div>
+      <div id="terminal-content">
+      </div>
+    </div>
+    <nav class="nav is-hidden-desktop hidden">
       <div class="container">
         <a class="nav-item nav-title" href='/'>Shante Vallee</a>
         <div class="nav-right nav-menu" id="nav-menu">
@@ -27,7 +39,7 @@
         </span>
       </div>
     </nav>
-    <div class="container projects-page">
+    <div class="container projects-page hidden">
       <div class="sidebar is-hidden-touch">
         <div class="sidebar-content fade">
           <h1>Shante Vallee</h1>
@@ -174,5 +186,6 @@
     <script src="https://use.fontawesome.com/23c38d4be7.js"></script>
     <script type="text/javascript" src="scripts/nav.js"></script>
     <script type="text/javascript" src="scripts/fade.js"></script>
+    <script type="text/javascript" src="scripts/terminal.js"></script>
   </body>
 </html>
