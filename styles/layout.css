@@ -36,6 +36,13 @@ a,h1,h2 {
   letter-spacing: 2px;
 }
 
+h2 .fa,
+h1 .fa {
+  color: inherit;
+  vertical-align: baseline;
+  margin-right: 5px;
+}
+
 .hidden {
   opacity: 0;
 }
@@ -111,7 +118,7 @@ a.nav-title.nav-item {
   height: 300px
 }
 
-img {
+.profile-image img {
   border-radius: 50%;
 }
 
@@ -121,6 +128,13 @@ img {
 
 .sidebar-link {
   margin-top: 12px;
+}
+
+.sidebar-link .fa,
+.column .fa {
+  color: #AFAFAF;
+  vertical-align: baseline;
+  margin-right: 5px;
 }
 
 .skills {
