@@ -4,10 +4,8 @@ $(document).ready(function() {
   render(terminal, content, 0);
   content = "<p>My name is Shante</p><p>I am a front end developer</p>";
   render(terminal, content, 800);
-  content =
-    '<br><p>Are you here to check out my portfolio?</p><p>> Enter [yes] or [no]  :  <span class="cursor"></span></p>';
+  content = '<br><p>Wanna see some cool projects?</p><p>> Enter [yes] or [no]  :  <span class="cursor"></span></p>';
   render(terminal, content, 2000);
-
   setTimeout(function() {
     var cursor = $(".cursor")[0];
     content = "y";
