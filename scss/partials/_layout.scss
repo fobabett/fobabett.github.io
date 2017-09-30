@@ -3,34 +3,94 @@ html,body {
   background: black;
   color: white;
 }
+$font-color: #CCCCCC;
+
 // Projects
 .hero {
   background: transparent;
   text-transform: uppercase;
-  padding: 50px;
+  padding: 20px;
+
+  @media (min-width: 960px) {
+    padding: 50px;
+  }
 
   h2 {
-    font-size: 8em;
+    font-size: 2em;
+    line-height: 30px;
+
+    @media (min-width: 960px) {
+      font-size: 8em;
+      line-height: 110px;
+    }
+
     font-weight: bolder;
     margin: 0;
-    line-height: 110px;
+  }
+
+  .arrow {
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+  }
+}
+
+.navbar-menu {
+  text-align: right;
+  opacity: 0;
+}
+
+.navbar-item {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: all .4s ease-out;
+  }
+
+  &:hover:before {
+    width: 100%;
+
+    a {
+      color: white;
+    }
+  }
+
+  a {
+    color: $font-color;
+    transition: 0.2s ease all;
   }
 }
 
 .hero-content {
   transform: translateY(80%) !important;
-  padding: 50px;
+  position: relative;
+
+  h1 {
+    color: $font-color;
+  }
 }
 
 .social-icons {
-  margin-top: 50px;
+  margin-top: 20px;
 
   li {
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 20px;
     position: relative;
     left: -600px;
-    
+
     &:before {
       content: '';
       position: absolute;
@@ -49,11 +109,39 @@ html,body {
 
     .fa {
       color: #CCCCCC;
+      font-size: 20px;
       transition: 0.5s ease all;
 
       &:hover {
         color: white;
       }
     }
+  }
+}
+
+.fa.fa-arrow-down {
+  font-size: 40px;
+  visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  animation: float 2s infinite;
+}
+
+@keyframes float {
+  0% {
+    bottom: 10px;
+    opacity: 0.1;
+  }
+  50% {
+    bottom: 5px;
+    opacity: 1;
+  }
+  75% {
+    bottom: 0px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 10px;
+    opacity: 0.1;
   }
 }

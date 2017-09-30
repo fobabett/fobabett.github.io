@@ -1,7 +1,6 @@
 // ——————————————————————————————————————————————————
 // TextScramble
 // ——————————————————————————————————————————————————
-
 class TextScramble {
   constructor(el) {
     this.el = el;
@@ -38,7 +37,7 @@ class TextScramble {
           char = this.randomChar();
           this.queue[i].char = char;
         }
-        output += `<span class="dud">${char}</span>`;
+        output += `${char}`;
       } else {
         output += from;
       }
@@ -46,6 +45,7 @@ class TextScramble {
     this.el.innerHTML = output;
     if (complete === this.queue.length) {
       this.resolve();
+      $(this.el).removeClass('scrambling');
     } else {
       this.frameRequest = requestAnimationFrame(this.update);
       this.frame++;
@@ -57,7 +57,6 @@ class TextScramble {
 }
 
 const phrases = ['Front End'];
-
 const el = $('h2')[0]
 const fx = new TextScramble(el);
 setTimeout(function() {
@@ -71,12 +70,20 @@ setTimeout(function() {
   let phrases = ['Developer']
   fx.setText(phrases[counter]);
 },1000);
+setTimeout(function() {
+  const el = $('h1')[0]
+  const fx = new TextScramble(el);
+  let counter = 0;
+  let phrases = ['Te Vallee']
+  fx.setText(phrases[counter]);
+},1000);
 
-// const next = () => {
-//   fx.setText(phrases[counter]).then(() => {
-//     setTimeout(next, 800);
-//   });
-//   counter = (counter + 1) % phrases.length;
-// };
-
-// next();
+$('.scramble').hover(function() {
+  const fx = new TextScramble(this);
+  let counter = 0;
+  let phrases = [(this).innerHTML];
+  if(!$(this).hasClass('scrambling')) {
+    $(this).addClass('scrambling');
+    fx.setText(phrases[counter]);
+  }
+});
