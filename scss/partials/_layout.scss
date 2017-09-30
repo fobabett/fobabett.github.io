@@ -10,6 +10,7 @@ $font-color: #CCCCCC;
   background: transparent;
   text-transform: uppercase;
   padding: 20px;
+  height: 100vh;
 
   @media (min-width: 960px) {
     padding: 50px;
@@ -74,7 +75,7 @@ $font-color: #CCCCCC;
 }
 
 .hero-content {
-  transform: translateY(80%) !important;
+  transform: translateY(50%) !important;
   position: relative;
 
   h1 {
@@ -125,6 +126,92 @@ $font-color: #CCCCCC;
   position: relative;
   cursor: pointer;
   animation: float 2s infinite;
+}
+
+section.projects-container {
+  background: transparent;
+  height: 100vh;
+}
+
+.projects  {
+  .columns {
+    padding: 50px;
+  }
+}
+
+.project {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background: none;
+  filter: grayscale(100%);
+  height: 300px;
+  background-size: cover;
+  border: 0;
+  box-sizing: border-box;
+  margin: 1em;
+  // padding: 1em 2em;
+  
+  box-shadow: inset 0 0 0 2px #1C1C1C;
+  color: white;
+  font-size: inherit;
+  font-weight: 700;
+
+  position: relative;
+  vertical-align: middle;
+
+  &::before,
+  &::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  transition: color 0.25s;
+
+  &::before,
+  &::after {
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+  }
+
+  &::before {
+    top: 0;
+    left: 0;
+  }
+
+  &::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  &:hover {
+    color: white;
+  }
+
+  &:hover::before,
+  &:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover::before {
+    border-top-color: white;
+    border-right-color: white;
+    transition:
+      width 0.25s ease-out,
+      height 0.25s ease-out 0.25s;
+  }
+
+  &:hover::after {
+    border-bottom-color: white;
+    border-left-color: white;
+    transition:
+      border-color 0s ease-out 0.5s,
+      width 0.25s ease-out 0.5s,
+      height 0.25s ease-out 0.75s;
+  }
 }
 
 @keyframes float {
