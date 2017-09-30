@@ -1,0 +1,49 @@
+html, body {
+  font-family: "Work Sans",Arial,Helvetica,Sans-Serif;
+  background: black;
+  color: white; }
+
+.hero {
+  background: transparent;
+  text-transform: uppercase;
+  padding: 50px; }
+  .hero h2 {
+    font-size: 8em;
+    font-weight: bolder;
+    margin: 0;
+    line-height: 110px; }
+
+.hero-content {
+  -webkit-transform: translateY(80%) !important;
+  transform: translateY(80%) !important;
+  padding: 50px; }
+
+.social-icons {
+  margin-top: 50px; }
+  .social-icons li {
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+    left: -600px; }
+    .social-icons li:before {
+      content: '';
+      position: absolute;
+      margin-top: -1px;
+      left: 50%;
+      top: -30px;
+      width: 1px;
+      height: 0;
+      background-color: #fff;
+      -webkit-transition: all .4s ease-out;
+      transition: all .4s ease-out; }
+    .social-icons li:hover:before {
+      height: 25px; }
+    .social-icons li .fa {
+      color: #CCCCCC;
+      -webkit-transition: 0.5s ease all;
+      transition: 0.5s ease all; }
+      .social-icons li .fa:hover {
+        color: white; }
+
+/*@import 'partials/projects';*/
+/*@import 'partials/resume';*/
