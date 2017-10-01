@@ -1,16 +1,24 @@
 $(document).ready(function() {
-  $(".fade").hide(0).delay(100).fadeIn(500);
-  $(".columns").each(function(i, el) {
-    $(el).hide(0).delay(500 * i).fadeIn(800);
-  });
-
   $(window).scroll(function() {
-    $(".hidden").each(function(i, el) {
+    $(".project").each(function(i, el) {
       var bottomOfEl = $(this).position().top + $(this).outerHeight();
       var bottomOfWindow = $(window).scrollTop() + $(window).height();
       if (bottomOfWindow > bottomOfEl) {
-        $(this).animate({ opacity: "1" }, 500);
+        var scrambleEl = '.project .scramble';
+        $(this).addClass('active')
+        let counter = 0;
+        if($(scrambleEl)[i]) {
+          let phrases = [$(scrambleEl)[i].getAttribute('data-text')];
+          const fx = new TextScramble($(scrambleEl)[i]);
+          if(!$(scrambleEl)[i].className.includes('scrambled')) {
+            $(scrambleEl)[i].className += ' scrambled';
+            fx.setText(phrases[counter]);
+          }
+        }
       }
     });
+  });
+  $('.fa-arrow-down').click(function() {
+    $('html,body').animate({ scrollTop: $("#projects").offset().top }, 500, 'swing');
   });
 });

@@ -1,6 +1,6 @@
 html,body{
   height: 100%;
-  background: #232429;
+  background: black;
 }
 
 .container {
@@ -30,7 +30,7 @@ html,body{
 }
 
 .section.projects div {
-  border-bottom: 1px solid #00C66B;
+  border-bottom: 1px solid white;
 }
 
 h3, .date {
