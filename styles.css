@@ -259,4 +259,59 @@ section.projects-container {
     bottom: 10px;
     opacity: 0.1; } }
 
-/*@import 'partials/resume';*/
+/*@import 'partials/projects';*/
+.resume {
+  padding: 25px;
+  font-size: 1em; }
+  @media (min-width: 960px) {
+    .resume {
+      padding: 50px; } }
+  .resume .section {
+    background-color: black;
+    border: 1px solid white;
+    margin-bottom: 25px; }
+    @media (min-width: 960px) {
+      .resume .section {
+        margin-bottom: 50px; } }
+  .resume h2 {
+    text-transform: uppercase;
+    font-size: 1.5em; }
+    .resume h2 .fa {
+      vertical-align: baseline;
+      margin-right: 10px; }
+  .resume ul {
+    list-style: initial; }
+
+.container {
+  position: relative; }
+
+.download-resume {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: fixed;
+  top: 127px;
+  right: -66px;
+  background: #00C66B;
+  color: #232429;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: bold;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24); }
+
+.section div {
+  padding-bottom: 24px;
+  padding-top: 24px; }
+
+.section.projects div:last-child {
+  border-bottom: none; }
+
+.section.projects div {
+  border-bottom: 1px solid white; }
+
+h3, .date {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #AFAFAF;
+  font-size: 14px;
+  margin-bottom: 12px; }
