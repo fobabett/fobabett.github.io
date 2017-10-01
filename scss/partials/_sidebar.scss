@@ -1,17 +1,26 @@
 .sidebar {
   border: 1px solid white;
-  margin-top: 50px;
+  
   // padding: 50px;
   height: auto;
   height: 700px;
   padding: 0;
   position: relative;
+  margin-top: 25px;
+
+  @media(min-width: 960px) {
+    margin-top: 50px;
+  }
 
   h1 {
-    font-size: 3em;
-    line-height: 40px;
+    font-size: 1em;
     font-weight: bolder;
     text-transform: uppercase;
+
+    @media(min-width: 960px) {
+      font-size: 2em;
+      line-height: 40px;
+    }
   }
 
   img {
@@ -20,7 +29,11 @@
 }
 
 .sidebar-content {
-  padding: 50px;
+  padding: 25px;
+
+  @media(min-width: 960px) {
+    padding: 50px;
+  }
 }
 
 .sidebar-link {
@@ -63,4 +76,8 @@
   .fa {
     color: black;
   }
+}
+.nav-toggle {
+  position: absolute;
+  right: 0;
 }

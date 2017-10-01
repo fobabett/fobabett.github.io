@@ -261,21 +261,30 @@ section.projects-container {
 
 .sidebar {
   border: 1px solid white;
-  margin-top: 50px;
   height: auto;
   height: 700px;
   padding: 0;
-  position: relative; }
+  position: relative;
+  margin-top: 25px; }
+  @media (min-width: 960px) {
+    .sidebar {
+      margin-top: 50px; } }
   .sidebar h1 {
-    font-size: 3em;
-    line-height: 40px;
+    font-size: 1em;
     font-weight: bolder;
     text-transform: uppercase; }
+    @media (min-width: 960px) {
+      .sidebar h1 {
+        font-size: 2em;
+        line-height: 40px; } }
   .sidebar img {
     border-radius: 50%; }
 
 .sidebar-content {
-  padding: 50px; }
+  padding: 25px; }
+  @media (min-width: 960px) {
+    .sidebar-content {
+      padding: 50px; } }
 
 .sidebar-link {
   text-transform: uppercase; }
@@ -303,6 +312,10 @@ section.projects-container {
     margin-right: 10px; }
   .sidebar-social-links-container .fa {
     color: black; }
+
+.nav-toggle {
+  position: absolute;
+  right: 0; }
 
 .resume {
   padding: 25px;
