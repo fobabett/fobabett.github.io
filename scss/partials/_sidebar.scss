@@ -1,0 +1,66 @@
+.sidebar {
+  border: 1px solid white;
+  margin-top: 50px;
+  // padding: 50px;
+  height: auto;
+  height: 700px;
+  padding: 0;
+  position: relative;
+
+  h1 {
+    font-size: 3em;
+    line-height: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+.sidebar-content {
+  padding: 50px;
+}
+
+.sidebar-link {
+  text-transform: uppercase;
+
+  a {
+    color: $font-color;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  .fa {
+    vertical-align: baseline;
+    margin-right: 10px;
+  }
+}
+
+.profile-image {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.sidebar-social-links-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+
+  .social-links {
+    li {
+      display: inline-block;
+      font-size: 1em;
+      margin-right: 10px;
+    }
+  }
+
+  .fa {
+    color: black;
+  }
+}

@@ -18,6 +18,14 @@ $(document).ready(function() {
       }
     });
   });
+  // $(".fade").each(function(i, el) {
+  //     var bottomOfEl = $(this).position().top + $(this).outerHeight();
+  //     var bottomOfWindow = $(window).scrollTop() + $(window).height();
+  //     if (bottomOfWindow > bottomOfEl) {
+  //       $(this).removeClass('fade');
+  //     }
+  //   });
+  // });
   $('.fa-arrow-down').click(function() {
     $('html,body').animate({ scrollTop: $("#projects").offset().top }, 500, 'swing');
   });

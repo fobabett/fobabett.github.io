@@ -28,6 +28,18 @@
 
   ul {
     list-style: initial;
+
+    li {
+      line-height: 25px;
+    }
+  }
+}
+
+.section {
+  padding: 25px;
+
+  @media(min-width: 960px) {
+    padding: 50px;
   }
 }
 

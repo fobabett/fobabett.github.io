@@ -259,7 +259,51 @@ section.projects-container {
     bottom: 10px;
     opacity: 0.1; } }
 
-/*@import 'partials/projects';*/
+.sidebar {
+  border: 1px solid white;
+  margin-top: 50px;
+  height: auto;
+  height: 700px;
+  padding: 0;
+  position: relative; }
+  .sidebar h1 {
+    font-size: 3em;
+    line-height: 40px;
+    font-weight: bolder;
+    text-transform: uppercase; }
+  .sidebar img {
+    border-radius: 50%; }
+
+.sidebar-content {
+  padding: 50px; }
+
+.sidebar-link {
+  text-transform: uppercase; }
+  .sidebar-link a {
+    color: #CCCCCC; }
+    .sidebar-link a:hover {
+      color: white; }
+  .sidebar-link .fa {
+    vertical-align: baseline;
+    margin-right: 10px; }
+
+.profile-image {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.sidebar-social-links-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white; }
+  .sidebar-social-links-container .social-links li {
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 10px; }
+  .sidebar-social-links-container .fa {
+    color: black; }
+
 .resume {
   padding: 25px;
   font-size: 1em; }
@@ -281,6 +325,14 @@ section.projects-container {
       margin-right: 10px; }
   .resume ul {
     list-style: initial; }
+    .resume ul li {
+      line-height: 25px; }
+
+.section {
+  padding: 25px; }
+  @media (min-width: 960px) {
+    .section {
+      padding: 50px; } }
 
 .container {
   position: relative; }
