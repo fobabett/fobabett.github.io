@@ -119,6 +119,10 @@
     font-weight: bolder;
     text-transform: uppercase;
     margin: 25px;
+
+    @media(min-width: 960px) {
+      margin-left: 0;
+    }
   }
 
   ul {
