@@ -1,0 +1,28 @@
+.nav {
+  background-color: black;
+  font-family: "Work Sans",Arial,Helvetica,Sans-Serif;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-item.nav-title {
+  font-weight: bolder;
+  color: white;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.nav-toggle {
+
+  span {
+    background-color: white;
+  }
+
+  &:hover {
+    background-color: transparent;
+  }
+}

@@ -1,25 +1,31 @@
 .sidebar {
-  border: 1px solid white;
-  
   // padding: 50px;
   height: auto;
-  height: 700px;
+  // height: 700px;
   padding: 0;
   position: relative;
   margin-top: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
 
   @media(min-width: 960px) {
     margin-top: 50px;
+    // border: 1px solid white;
+    margin: 0;
   }
 
   h1 {
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bolder;
     text-transform: uppercase;
+    border-bottom: 5px solid white;
+
+    padding: 25px;
 
     @media(min-width: 960px) {
       font-size: 2em;
       line-height: 40px;
+      margin-bottom: 20px;
     }
   }
 
@@ -29,18 +35,31 @@
 }
 
 .sidebar-content {
-  padding: 25px;
+  border-bottom: 5px solid white;
 
   @media(min-width: 960px) {
-    padding: 50px;
+    // padding: 50px;
+    padding: 25px;
+    border-bottom: none;
+  }
+
+  ul {
+    padding: 25px;
+
+    @media(min-width: 960px) {
+      padding: 0;
+    }
   }
 }
 
 .sidebar-link {
   text-transform: uppercase;
+  margin-bottom: 10px;
 
   a {
     color: $font-color;
+    font-size: 0.8em;
+    transition: all .4s ease-out;
 
     &:hover {
       color: white;
@@ -50,6 +69,7 @@
   .fa {
     vertical-align: baseline;
     margin-right: 10px;
+    font-size: 1.5em;
   }
 }
 

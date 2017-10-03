@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Shante Vallee Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" media="print" rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.css">
@@ -30,19 +31,22 @@
     </nav>
     <div class="container resume-container columns">
       <!-- <a class="download-resume is-hidden-desktop" href="">Download Resume</a> -->
-      <div class="sidebar is-hidden-touch fade column is-3 is-offset-2">
+      <div class="sidebar column is-4-desktop is-12">
         <div class="sidebar-content">
           <h1>Shante Vallee</h1>
-          <div class="profile-image">
+          <!-- <div class="profile-image">
             <img src="images/me.png">
-          </div>
+          </div> -->
           <ul>
-            <li class="sidebar-link"><a href="">Download Resume</a></li>
-            <li class="sidebar-link"><a href="/">Projects</a></li>
-            <li target="_blank" class="sidebar-link"><a href="https://soundcloud.com/sofckinawkwurd">Music</a></li>
+            <li class="sidebar-link"><a href=""><i class="fa fa-2x fa-download" aria-hidden="true"></i>Download Resume</a></li>
+            <li class="sidebar-link"><a href="/"><i class="fa fa-2x fa-code-fork" aria-hidden="true"></i>Projects</a></li>
+            <li class="sidebar-link"><a target="_blank" href="https://www.linkedin.com/in/shantevallee"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>linkedin.com/in/shatevallee</a></li>
+            <li class="sidebar-link"><a target="_blank" href="https://github.com/fobabett"><i class="fa fa-2x fa-github-square" aria-hidden="true"></i>github.com/fobabett</a></li>
+            <li class="sidebar-link"><a target="_blank" href="https://twitter.com/fobabett"><i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i>twitter.com/fobabett</a></li>
+            <li class="sidebar-link"><a target="_blank" href="mailto:te.vallee@gmail.com"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i>te.vallee@gmail.com</a></li>
           </ul>
         </div>
-        <div class="sidebar-social-links-container">
+<!--         <div class="sidebar-social-links-container">
           <ul class="social-links">
             <li><a target="_blank" href="https://www.linkedin.com/in/shantevallee"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a></li>
             <li><a target="_blank" href="https://github.com/fobabett"><i class="fa fa-2x fa-github-square" aria-hidden="true"></i></a></li>
@@ -50,10 +54,10 @@
             <li><a target="_blank" href="https://soundcloud.com/sofckinawkwurd"><i class="fa fa-2x fa-soundcloud" aria-hidden="true"></i></a></li>
             <li><a target="_blank" href="mailto:shantevallee@gmail.com"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i></a></li>
           </ul>
-        </div>
+        </div> -->
       </div>
-      <div class="right resume column is-6-desktop is-12">
-        <section class="section about fade">
+      <div class="right resume column is-8-desktop is-12">
+        <section class="section about">
           <p>I am a full-stack web application developer experienced in using many web technologies with a passion for building user-focused experiences, games, and music composition.</p>
         </section>
         <section class="section fade work-experience">
@@ -62,19 +66,11 @@
             <h3>Goma Games</h3>
             <p class="date">Front-End Developer | Jul 2015 - Present</p>
             <ul>
-              <li>Develops client-side single-page applications for clients and internal products using frameworks such as React and Angular.</li>
-              <li>Works with server-side team and project management teams to write solid front end implementations.</li> 
-              <li>Integrates with 3rd party APIs for scalable web applications.</li>
-              <li>Built backend tools, microservices and APIs using NodeJS, Go, and Python.</li>
+              <li><span>Develops client-side single-page applications for clients and internal products using frameworks such as React and Angular.</span></li>
+              <li><span>Works with server-side team and project management teams to write solid front end implementations.</span></li> 
+              <li><span>Integrates with 3rd party APIs for scalable web applications.</span></li>
+              <li><span>Built backend tools, microservices and APIs using NodeJS, Go, and Python.</span></li>
             </ul>
-          </div>
-        </section>
-        <section class="section fade education">
-          <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i>Education</h2>
-          <div>
-            <h3>Devleague</h3>
-            <p class="date">2014 - 2015</p>
-            <p>Immersive coding bootcamp covering full stack web application development focusing on NodeJS, React, Angular, RDBMS and NoSQL.</p>
           </div>
         </section>
         <section class="section fade projects">
@@ -83,146 +79,154 @@
             <h3>Airship CMS</h3>
             <p class="date">2015 - Present | Goma Games | <a href="https://airshipcms.io">airshipcms.io</a></p>
             <ul>
-              <li>Wrote the entire modular content management system user interface in AngularJS with coffeescript, jade templating, and gulp workflow.</li>
-              <li>Developed the authorization layer by integrating 3rd party Auth0 service.</li> 
-              <li>Developed file and image upload capability by integrating 3rd party Cloudinary service.</li>
-              <li>Developed e-commerce capability by integrating with 3rd party Stripe payment processing service.</li>
+              <li><span>Wrote the entire modular content management system user interface in AngularJS with coffeescript, jade templating, and gulp workflow.</span></li>
+              <li><span>Developed the authorization layer by integrating 3rd party Auth0 service.</span></li> 
+              <li><span>Developed file and image upload capability by integrating 3rd party Cloudinary service.</span></li>
+              <li><span>Developed e-commerce capability by integrating with 3rd party Stripe payment processing service.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>Skyport</h3>
             <p class="date">2016 - Present | Goma Games | <a href="/skyport">fobabett.github.io/skyport</a></p>
             <ul>
-              <li>Wrote the entire account management user interface in Angular 4 with TypeScript and webpack workflow.</li>
-              <li>Developed the authorization layer by integrating 3rd party Auth0 service.</li> 
-              <li>Developed file and image upload capability by integrating 3rd party Cloudinary service.</li>
-              <li>Developed e-commerce capability by integrating with 3rd party Stripe payment processing service.</li>
-            </li>
+              <li><span>Wrote the entire account management user interface in Angular 4 with TypeScript and webpack workflow.</span></li>
+              <li><span>Developed the authorization layer by integrating 3rd party Auth0 service.</span></li> 
+              <li><span>Developed file and image upload capability by integrating 3rd party Cloudinary service.</span></li>
+              <li><span>Developed e-commerce capability by integrating with 3rd party Stripe payment processing service.</span></li>
+            </ul>
           </div>
           <div class="hidden">
             <h3>Beyond VT Marketing</h3>
             <p class="date">2017 | Goma Games | <a target="_blank" href="https://www.beyondvtmarketing.com/order">www.beyondvtmarketing.com/order</a></p>
             <ul>
-              <li>Built client-side single-page order/checkout application with Angular and Airship's API.</li>
-              <li>Integrated Stripe card validations.</li>
-              <li>Integrated Auth0.</li>
-              <li>Built CSV export tool with JQuery, NodeJs, Express, and MongoDB.</li>
+              <li><span>Built client-side single-page order/checkout application with Angular and Airship's API.</span></li>
+              <li><span>Integrated Stripe card validations.</span></li>
+              <li><span>Integrated Auth0.</span></li>
+              <li><span>Built CSV export tool with JQuery, NodeJs, Express, and MongoDB.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>WiFi Probe Sniffer</h3>
             <p class="date">2017 | Goma Games</p>
             <ul>
-              <li>Wrote a python runner script that schedules the periodic synchronization of database files</li>
-              <li>Wrote the synchronization script using python from a Raspberry PI to an AWS S3 bucket</li>
+              <li><span>Wrote a python runner script that schedules the periodic synchronization of database files</span></li>
+              <li><span>Wrote the synchronization script using python from a Raspberry PI to an AWS S3 bucket</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>Angular + Airship CMS</h3>
             <p class="date">2017 | Goma Games | <a target="_blank" href="https://angular-app.airshipcms.io">angular-app.airshipcms.io</a> | <a target="_blank" href="https://github.com/AirshipCMS/angular-app.airshipcms.io">Github</a></p>
             <ul>
-              <li>Built single-page application with Angular and AirshipCMS.</li>
-              <li>Documented how to setup the workflow and file structure for an Angular app with Webpack.</li>
-              <li>Styled with CSS and Bulma.</li>
+              <li><span>Built single-page application with Angular and AirshipCMS.</span></li>
+              <li><span>Documented how to setup the workflow and file structure for an Angular app with Webpack.</span></li>
+              <li><span>Styled with CSS and Bulma.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>React + Airship CMS</h3>
             <p class="date">2017 | Goma Games | <a target="_blank" href="https://react-app.airshipcms.io">react-app.airshipcms.io</a> | <a target="_blank" href="https://github.com/AirshipCMS/react-app.airshipcms.io">Github</a></p>
             <ul>
-              <li>Built single-page application with React and AirshipCMS.</li>
-              <li>Documented how to setup the workflow and file structure for React app with webpack.</li>
-              <li>Styled with CSS and Bulma.</li>
+              <li><span>Built single-page application with React and AirshipCMS.</span></li>
+              <li><span>Documented how to setup the workflow and file structure for React app with webpack.</span></li>
+              <li><span>Styled with CSS and Bulma.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>Angular 1.x + Gulp + Babel + Airship CMS</h3>
             <p class="date">2017 | Goma Games | <a target="_blank" href="https://angular-1-gulp-babel.airshipcms.io">angular-1-gulp-babel.airshipcms.io</a> | <a target="_blank" href="https://github.com/AirshipCMS/angular-1-gulp-babel.airshipcms.io">Github</a></p>
             <ul>
-              <li>Built single-page application with Angular 1, Gulp, Babel and AirshipCMS.</li>
-              <li>Styled with SCSS and Bulma.</li>
-              <li>Documented how to setup the gulp + babel workflow and file structure for an Angular 1 app.</li>
+              <li><span>Built single-page application with Angular 1, Gulp, Babel and AirshipCMS.</span></li>
+              <li><span>Styled with SCSS and Bulma.</span></li>
+              <li><span>Documented how to setup the gulp + babel workflow and file structure for an Angular 1 app.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>Swagger UI Light</h3>
             <p class="date">2017 | Goma Games | <a href="https://airshipcms.io/api/docs">airshipcms.io/api/docs</a> | <a target="_blank" href="https://github.com/AirshipCMS/Swagger-UI-Light">Github</a></p>
             <ul>
-              <li>Built open source alternative Swagger UI using InfernoJS.</li>
+              <li><span>Built open source alternative Swagger UI using InfernoJS.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>Unicorns VS. Dragons</h3>
             <p class="date">2017 | Node-Knockout Hackathon Winner | <a target="_blank" href="https://dragons.gomagames.com">dragons.gomagames.com</a></p>
             <ul>
-              <li>A mobile real-time multiplayer game.</li>
-              <li>Game built with Angular </li>
-              <li>Socket server built with Go</li>
+              <li><span>A mobile real-time multiplayer game.</span></li>
+              <li><span>Game built with Angular </span></li>
+              <li><span>Socket server built with Go</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>Circa Victor</h3>
             <p class="date">2017 | Circa Victor</p>
             <ul>
-              <li>Built a microservice that retrives data from an FTP server and uploads to an AWS S3 bucket in Go.</li>
-              <li>Wrote and designed an activity log persisted to AWS DynamoDB.</li>
+              <li><span>Built a microservice that retrives data from an FTP server and uploads to an AWS S3 bucket in Go.</span></li>
+              <li><span>Wrote and designed an activity log persisted to AWS DynamoDB.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>Truffaux</h3>
             <p class="date">2016 | Goma Games | <a target="_blank" href="https://www.truffaux.com">www.truffaux.com</a></p>
             <ul>
-              <li>Built a custom product browser that fetches products from Airship API using Angular 1.</li>
-              <li>Built a custom shopping cart module using Angular 1.</li>
-              <li>Built a custom checkout module using Angular 1.</li>
+              <li><span>Built a custom product browser that fetches products from Airship API using Angular 1.</span></li>
+              <li><span>Built a custom shopping cart module using Angular 1.</span></li>
+              <li><span>Built a custom checkout module using Angular 1.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>Tunefork</h3>
             <p class="date">2016 | <a target="_blank" href="https://tunefork.airshipcms.io" alt="tunefork">tunefork.airshipcms.io</a> | <a target="_blank" href="https://github.com/fobabett/TuneFork" alt="tunefork">Github</a></p>
             <ul>
-              <li>Built a music playlist creation and sharing platform using Angular.</li>
-              <li>Wrote the realtime database storage layer using Firebase.</li>
-              <li>Deployed to AirshipCMS.</li>
+              <li><span>Built a music playlist creation and sharing platform using Angular.</span></li>
+              <li><span>Wrote the realtime database storage layer using Firebase.</span></li>
+              <li><span>Deployed to AirshipCMS.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>Randy Panado</h3>
             <p class="date">2016 | Goma Games | <a target="_blank" href="https://www.randypanado.com">www.randypanado.com</a></p>
             <ul>
-              <li>Built portfolio site using content from AirshipCMS.</li>
-              <li>Wrote a portfolio piece filter with Angular 1.</li>
-              <li>Created a video modal with Angular 1.</li>
+              <li><span>Built portfolio site using content from AirshipCMS.</span></li>
+              <li><span>Wrote a portfolio piece filter with Angular 1.</span></li>
+              <li><span>Created a video modal with Angular 1.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>Airshop Checkout</h3>
             <ul>
-              <li>Wrote and designed a re-usable and extendable checkout module using Angular 1.</li>
-              <li>Wrote the AirshipCMS API integration for payment processing with Stripe.</li>
-              <li>Integrated card validation and token handling with Stripe.</li>
+              <li><span>Wrote and designed a re-usable and extendable checkout module using Angular 1.</span></li>
+              <li><span>Wrote the AirshipCMS API integration for payment processing with Stripe.</span></li>
+              <li><span>Integrated card validation and token handling with Stripe.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>HIC Surfboards</h3>
             <p class="date">2017 | Goma Games | <a target="_blank" href="https://www.hicsurfboards.com">www.hicsurfboards.com</a></p>
              <ul> 
-              <li>Rendered dynamic content fetched from Airship API using JQeury and AirshipCMS classic rendering.</li>
-              <li>Styled with SCSS and Foundation.</li>
-              <li>Worked on cart module. Built with Angular 1.</li>
-              <li>Worked on checkout module. Built with Angular 1.</li>
+              <li><span>Rendered dynamic content fetched from Airship API using JQeury and AirshipCMS classic rendering.</span></li>
+              <li><span>Styled with SCSS and Foundation.</span></li>
+              <li><span>Worked on cart module. Built with Angular 1.</span></li>
+              <li><span>Worked on checkout module. Built with Angular 1.</span></li>
             </ul>
           </div>
           <div class="hidden">
             <h3>Sketchy Friends</h3>
             <p class="date">2017 | React Riot Hackathon Entry | <a target="_blank" href="https://sketchy-friends.herokuapp.com">sketchy-friends.herokuapp.com</a></p>
             <ul>
-              <li>Built a realtime 2 player desktop drawing game.</li>
-              <li>UI built with ReactJS.</li>
-              <li>Socket server built with NodeJS and Socket.io</p>
-              <li>Styled with CSS.</li>
-              <li>Deployed with Heroku.</li>
+              <li><span>Built a realtime 2 player desktop drawing game.</span></li>
+              <li><span>UI built with ReactJS.</span></li>
+              <li><span>Socket server built with NodeJS and Socket.io</span></li>
+              <li><span>Styled with CSS.</span></li>
+              <li><span>Deployed with Heroku.</span></li>
             </ul>
+          </div>
+        </section>
+        <section class="section fade education hidden">
+          <h2><i class="fa fa-graduation-cap" aria-hidden="true"></i>Education</h2>
+          <div>
+            <h3>Devleague</h3>
+            <p class="date">2014 - 2015</p>
+            <p>Immersive coding bootcamp covering full stack web application development focusing on NodeJS, React, Angular, RDBMS and NoSQL.</p>
           </div>
         </section>
       </div>
@@ -230,5 +234,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://use.fontawesome.com/23c38d4be7.js"></script>
     <script type="text/javascript" src="scripts/nav.js"></script>
+    <!-- <script src="scripts/scrambler.js"></script> -->
+    <script src="scripts/fade.js"></script>
   </body>
 </html>

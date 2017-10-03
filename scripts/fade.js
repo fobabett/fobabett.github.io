@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $('html,body').animate({ "opacity": 1 }, 1000, "linear");
   $(window).scroll(function() {
     $(".project").each(function(i, el) {
       var bottomOfEl = $(this).position().top + $(this).outerHeight();
@@ -17,15 +18,14 @@ $(document).ready(function() {
         }
       }
     });
+    $(".hidden").each(function(i, el) {
+      var bottomOfEl = $(el).position().top + $(el).outerHeight();
+      var bottomOfWindow = $(window).scrollTop() + $(window).height();
+      if (bottomOfWindow > bottomOfEl) {
+        $(el).animate({ opacity: 1 }, 1000);
+      }
+    });
   });
-  // $(".fade").each(function(i, el) {
-  //     var bottomOfEl = $(this).position().top + $(this).outerHeight();
-  //     var bottomOfWindow = $(window).scrollTop() + $(window).height();
-  //     if (bottomOfWindow > bottomOfEl) {
-  //       $(this).removeClass('fade');
-  //     }
-  //   });
-  // });
   $('.fa-arrow-down').click(function() {
     $('html,body').animate({ scrollTop: $("#projects").offset().top }, 500, 'swing');
   });
