@@ -111,9 +111,15 @@
   right: 0;
 }
 
-.skills {
+.skills,
+.awards {
   margin-top: 25px;
   border-top: 5px solid white;
+
+  .fa {
+    vertical-align: baseline;
+    margin-right: 10px;
+  }
 
   h2 {
     font-weight: bolder;
@@ -123,6 +129,10 @@
     @media(min-width: 960px) {
       margin-left: 0;
     }
+  }
+
+  h3 {
+    margin-top: 20px;
   }
 
   ul {
