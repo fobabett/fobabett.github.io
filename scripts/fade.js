@@ -24,7 +24,6 @@ $(document).ready(function() {
         $(el).animate({ opacity: 1 }, 1000);
       }
     });
-    var bottomOfProjects = $('#projects').position().top + $('#projects').outerHeight();
   });
   $('.fa-arrow-down').click(function() {
     $('html,body').animate({ scrollTop: $("#projects").offset().top }, 500, 'swing');

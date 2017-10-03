@@ -30,8 +30,13 @@
   }
 
   img {
-    border-radius: 50%;
+    // border-radius: 50%;
   }
+}
+
+.profile-image {
+  border-bottom: 5px solid white;
+  margin-bottom: 25px;
 }
 
 .sidebar-content {
