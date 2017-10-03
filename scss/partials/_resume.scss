@@ -3,7 +3,7 @@
   margin: 0 auto;
   flex-flow: row wrap;
 
-   @media(min-width: 960px) {
+   @media(min-width: 1000px) {
     flex-flow: unset;
   }
 }
@@ -14,7 +14,7 @@
   margin-top: 25px;
   margin: 15px;
 
-  @media(min-width: 960px) {
+  @media(min-width: 1000px) {
     // padding: 50px;
     margin-top: 50px;
   }
@@ -24,7 +24,7 @@
     border: 1px solid white;
     margin-bottom: 25px;
   
-    @media(min-width: 960px) {
+    @media(min-width: 1000px) {
       margin-bottom: 50px;
     }
   }
@@ -61,7 +61,7 @@
 .section {
   padding: 25px;
 
-  @media(min-width: 960px) {
+  @media(min-width: 1000px) {
     padding: 50px;
   }
 }

@@ -6,14 +6,14 @@ section.projects-container {
 .projects  {
   padding: 25px;
 
-  @media (min-width: 960px) {
+  @media (min-width: 1000px) {
     padding: 50px;
   }
 
   .columns {
     margin-top: 25px;
 
-    @media (min-width: 960px) {
+    @media (min-width: 1000px) {
       margin-top: 50px;
     }
   }
@@ -100,7 +100,7 @@ section.projects-container {
     font-size: 1.3em;
     font-weight: lighter;
 
-    @media (min-width: 960px) {
+    @media (min-width: 1000px) {
       font-size: 2em;
     }
 
@@ -115,7 +115,7 @@ section.projects-container {
   font-weight: bolder;
   font-size: 1.3em;
 
-  @media (min-width: 960px) {
+  @media (min-width: 1000px) {
     transform: rotate(-90deg);
     position: absolute;
     left: -164px;
@@ -135,12 +135,12 @@ section.projects-container {
   z-index: 1;
   bottom: 0;
 
-  @media (min-width: 960px) {
+  @media (min-width: 1000px) {
     bottom: -35px;
   }
 
   &:hover:before {
-    @media (min-width: 960px) {
+    @media (min-width: 1000px) {
       height: 15px;
       bottom: 20px;
     }
@@ -151,7 +151,7 @@ section.projects-container {
   }
 
   &:before {
-    @media (min-width: 960px) {
+    @media (min-width: 1000px) {
       content: '';
       position: absolute;
       margin-top: -1px;
@@ -168,7 +168,7 @@ section.projects-container {
 .view-site-link {
   left: 10px;
 
-  @media (min-width: 960px) {
+  @media (min-width: 1000px) {
     left: 0;
   }
 }
@@ -176,7 +176,7 @@ section.projects-container {
 .view-repo-link {
   right: 10px;
 
-  @media (min-width: 960px) {
+  @media (min-width: 1000px) {
     right: 0;
   }
 }
