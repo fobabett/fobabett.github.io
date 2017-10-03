@@ -92,11 +92,13 @@
   padding-top: 24px;
 }
 
-.section.projects div:last-child {
+.section.projects div:last-child,
+.section.work-experience div:last-child  {
   border-bottom: none;
 }
 
-.section.projects div {
+.section.projects div,
+.work-experience div {
   border-bottom: 1px solid white;
 }
 
