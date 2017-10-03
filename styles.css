@@ -336,7 +336,7 @@ section.projects-container {
   margin-bottom: 10px; }
   .sidebar-link a {
     color: #CCCCCC;
-    font-size: 0.8em;
+    font-size: 0.7em;
     -webkit-transition: all .4s ease-out;
     transition: all .4s ease-out; }
     .sidebar-link a:hover {
