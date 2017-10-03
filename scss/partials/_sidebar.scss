@@ -110,3 +110,24 @@
   position: absolute;
   right: 0;
 }
+
+.awards {
+  margin-top: 25px;
+  border-top: 5px solid white;
+
+  h2 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 25px;
+  }
+
+  ul {
+    list-style: initial;
+    font-size: 0.8em;
+
+    @media(min-width: 960px) {
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+  }
+}
