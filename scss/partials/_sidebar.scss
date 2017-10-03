@@ -63,12 +63,8 @@
 
   a {
     color: $font-color;
-    font-size: 0.7em;
+    font-size: 0.8em;
     transition: all .4s ease-out;
-
-    @media(min-width: 1000px) {
-      font-size: 0.8em;
-    }
 
     &:hover {
       color: white;

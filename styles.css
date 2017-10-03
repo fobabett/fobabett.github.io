@@ -377,12 +377,9 @@ section.projects-container {
   margin-bottom: 10px; }
   .sidebar-link a {
     color: #CCCCCC;
-    font-size: 0.7em;
+    font-size: 0.8em;
     -webkit-transition: all .4s ease-out;
     transition: all .4s ease-out; }
-    @media (min-width: 1000px) {
-      .sidebar-link a {
-        font-size: 0.8em; } }
     .sidebar-link a:hover {
       color: white; }
   .sidebar-link .fa {
