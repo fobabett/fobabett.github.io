@@ -421,10 +421,11 @@ section.projects-container {
   .awards ul {
     list-style: initial;
     font-size: 0.8em; }
+    .awards ul li {
+      margin-bottom: 10px; }
     @media (min-width: 960px) {
       .awards ul {
-        font-size: 0.9em;
-        margin-bottom: 10px; } }
+        font-size: 0.9em; } }
 
 .resume-container {
   max-width: 960px;

@@ -125,9 +125,12 @@
     list-style: initial;
     font-size: 0.8em;
 
+    li {
+      margin-bottom: 10px;
+    }
+
     @media(min-width: 960px) {
       font-size: 0.9em;
-      margin-bottom: 10px;
     }
   }
 }
