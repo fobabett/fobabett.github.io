@@ -115,6 +115,11 @@
 .awards {
   margin-top: 25px;
   border-top: 5px solid white;
+  padding: 25px;
+
+  @media(min-width: 1000px) {
+    padding: 0;
+  }
 
   .fa {
     vertical-align: baseline;
@@ -124,10 +129,11 @@
   h2 {
     font-weight: bolder;
     text-transform: uppercase;
-    margin: 25px;
 
     @media(min-width: 960px) {
       margin-left: 0;
+      margin-bottom: 25px;
+      margin-top: 25px;
     }
   }
 

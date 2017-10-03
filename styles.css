@@ -414,7 +414,12 @@ section.projects-container {
 .skills,
 .awards {
   margin-top: 25px;
-  border-top: 5px solid white; }
+  border-top: 5px solid white;
+  padding: 25px; }
+  @media (min-width: 1000px) {
+    .skills,
+    .awards {
+      padding: 0; } }
   .skills .fa,
   .awards .fa {
     vertical-align: baseline;
@@ -422,12 +427,13 @@ section.projects-container {
   .skills h2,
   .awards h2 {
     font-weight: bolder;
-    text-transform: uppercase;
-    margin: 25px; }
+    text-transform: uppercase; }
     @media (min-width: 960px) {
       .skills h2,
       .awards h2 {
-        margin-left: 0; } }
+        margin-left: 0;
+        margin-bottom: 25px;
+        margin-top: 25px; } }
   .skills h3,
   .awards h3 {
     margin-top: 20px; }
