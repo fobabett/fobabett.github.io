@@ -9,6 +9,6 @@ setTimeout(function() {
     // $(el).css({ left: "-600px" }).animate({ left: "0px" }, speed, "linear");
   });
   $('.navbar-menu').animate({ "opacity": 1 }, 1000, "linear");
-  $('.fa.fa-arrow-down').css({ "visibility": "visible",
+  $('.arrow').css({ "visibility": "visible",
   opacity: 0 }).animate({ "visibility": 'visible', opacity: 1 }, 1000, "linear");
 }, 2000);

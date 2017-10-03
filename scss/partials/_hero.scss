@@ -28,6 +28,14 @@
     right: 0;
     left: 0;
     text-align: center;
+    visibility: hidden;
+
+    p {
+      font-size: 0.7em;
+      margin-bottom: 10px;
+      font-weight: bolder;
+      animation: fade-out 2s infinite;
+    }
   }
 }
 
@@ -115,8 +123,22 @@
 
 .fa.fa-arrow-down {
   font-size: 40px;
-  visibility: hidden;
   position: relative;
   cursor: pointer;
   animation: float 2s infinite;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
 }
