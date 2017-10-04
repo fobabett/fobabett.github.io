@@ -78,12 +78,12 @@ setTimeout(function() {
   fx.setText(phrases[counter]);
 },1000);
 
-$('.scramble').hover(function() {
-  const fx = new TextScramble(this);
-  let counter = 0;
-  let phrases = [(this).innerHTML];
-  if(!$(this).hasClass('scrambling')) {
-    $(this).addClass('scrambling');
-    fx.setText(phrases[counter]);
-  }
-});
+// $('.scramble').hover(function() {
+//   const fx = new TextScramble(this);
+//   let counter = 0;
+//   let phrases = [(this).innerHTML];
+//   if(!$(this).hasClass('scrambling')) {
+//     $(this).addClass('scrambling');
+//     fx.setText(phrases[counter]);
+//   }
+// });
