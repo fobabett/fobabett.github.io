@@ -5,10 +5,10 @@ setTimeout(function() {
     } else {
       var speed = 800 * i;
     }
-    $(el).animate({ opacity: 1  }, speed, "linear");
+    $(el).animate({ opacity: 1  }, 2000, "linear");
     // $(el).css({ left: "-600px" }).animate({ left: "0px" }, speed, "linear");
   });
-  $('.navbar-menu').animate({ "opacity": 1 }, 1000, "linear");
+  $('.navbar-menu').animate({ "opacity": 1 }, 2000, "linear");
   $('.arrow').css({ "visibility": "visible",
-  opacity: 0 }).animate({ "visibility": 'visible', opacity: 1 }, 1000, "linear");
+  opacity: 0 }).animate({ "visibility": 'visible', opacity: 1 }, 2000, "linear");
 }, 2000);
