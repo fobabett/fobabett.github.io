@@ -7,9 +7,9 @@ $(document).ready(function() {
       if (bottomOfWindow > bottomOfEl) {
         var scrambleEl = '.project .scramble';
         $(this).addClass('active')
-        let counter = 0;
+        var counter = 0;
         if($(scrambleEl)[i]) {
-          let phrases = [$(scrambleEl)[i].getAttribute('data-text')];
+          var phrases = [$(scrambleEl)[i].getAttribute('data-text')];
           const fx = new TextScramble($(scrambleEl)[i]);
           if(!$(scrambleEl)[i].className.includes('scrambled')) {
             $(scrambleEl)[i].className += ' scrambled';
