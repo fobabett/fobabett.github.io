@@ -360,10 +360,10 @@ section.projects-container {
         padding-left: 0; } }
 
 .profile-image {
-  background-image: url('images/itme.jpg');
-  background-size: cover;
-  width: 200px;
-  height: 250px;
+  /* background-image: url('images/itme.jpg'); */
+  /* background-size: cover; */
+  /* width: 200px; */
+  /* height: 250px; */
   /* border-radius: 50%; */
   border-bottom: 5px solid #F8E9E7;
   margin-bottom: 25px; }
