@@ -84,7 +84,7 @@ var TextScramble = function () {
   return TextScramble;
 }();
 
-var phrases = ['Front End'];
+var phrases = ['Code'];
 var el = $('h2')[0];
 var fx = new TextScramble(el);
 setTimeout(function () {
@@ -95,7 +95,7 @@ setTimeout(function () {
   var el = $('h2')[1];
   var fx = new TextScramble(el);
   var counter = 0;
-  var phrases = ['Developer'];
+  var phrases = ['Composer'];
   fx.setText(phrases[counter]);
 }, 1000);
 setTimeout(function () {

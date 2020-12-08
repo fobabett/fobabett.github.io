@@ -1,5 +1,8 @@
+h1{
+  color: #EF866A;
+}
 .nav {
-  background-color: black;
+  background-color: #111111;
   font-family: "Work Sans",Arial,Helvetica,Sans-Serif;
   text-transform: uppercase;
   position: fixed;
@@ -8,12 +11,12 @@
 
 .nav-item.nav-title {
   font-weight: bolder;
-  color: white; }
+  color: #F8E9E7; }
   .nav-item.nav-title:hover {
-    color: white; }
+    color: #F8E9E7; }
 
 .nav-toggle span {
-  background-color: white; }
+  background-color: #F8E9E7; }
 
 .nav-toggle:hover {
   background-color: transparent; }
@@ -28,12 +31,12 @@
   z-index: 1;
   opacity: 0; }
   #logo a {
-    color: white; }
+    color: #F8E9E7; }
 
 html, body {
   font-family: "Work Sans",Arial,Helvetica,Sans-Serif;
-  background: black;
-  color: white;
+  background: #121212;
+  color: #F8E9E7;
   position: relative;
   margin-top: 25px;
   opacity: 0;
@@ -58,7 +61,7 @@ html, body {
     margin: 0; }
     @media (min-width: 1000px) {
       .hero h2 {
-        line-height: 110px; } }
+        line-height: 130px; } }
   .hero .arrow {
     position: relative;
     position: absolute;
@@ -95,9 +98,9 @@ html, body {
   .navbar-item:hover:before {
     width: 100%; }
     .navbar-item:hover:before a {
-      color: white; }
+      color: #F8E9E7; }
   .navbar-item a {
-    color: #CCCCCC;
+    color: #EF866A;
     -webkit-transition: all .4s ease-out;
     transition: all .4s ease-out; }
 
@@ -106,7 +109,7 @@ html, body {
   transform: translateY(30%) !important;
   position: relative; }
   .hero-content h1 {
-    color: #CCCCCC; }
+    color: #EF866A; }
 
 .social-icons {
   margin-top: 20px; }
@@ -129,12 +132,12 @@ html, body {
     .social-icons li:hover:before {
       height: 25px; }
     .social-icons li .fa {
-      color: #CCCCCC;
+      color: #EF866A;
       font-size: 1.5em;
       -webkit-transition: all .4s ease-out;
       transition: all .4s ease-out; }
       .social-icons li .fa:hover {
-        color: white; }
+        color: #F8E9E7; }
 
 .fa.fa-arrow-down {
   font-size: 40px;
@@ -191,7 +194,7 @@ section.projects-container {
   padding: 25px;
   -webkit-box-shadow: inset 0 0 0 2px black;
   box-shadow: inset 0 0 0 2px black;
-  color: white;
+  color: #F8E9E7;
   font-size: inherit;
   font-weight: 700;
   position: relative;
@@ -219,18 +222,18 @@ section.projects-container {
     bottom: 0;
     right: 0; }
   .project.active {
-    color: white; }
+    color: #F8E9E7; }
   .project.active::before, .project.active::after {
     width: 100%;
     height: 100%; }
   .project.active::before {
-    border-top-color: white;
-    border-right-color: white;
+    border-top-color: #F8E9E7;
+    border-right-color: #F8E9E7;
     -webkit-transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
     transition: width 0.25s ease-out, height 0.25s ease-out 0.25s; }
   .project.active::after {
-    border-bottom-color: white;
-    border-left-color: white;
+    border-bottom-color: #F8E9E7;
+    border-left-color: #F8E9E7;
     -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
     transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s; }
   .project p {
@@ -257,7 +260,7 @@ section.projects-container {
 
 .view-site-link,
 .view-repo-link {
-  color: #CCCCCC;
+  color: #EF866A;
   font-weight: 100;
   text-transform: uppercase;
   -webkit-transition: all .4s ease-out;
@@ -277,7 +280,7 @@ section.projects-container {
       bottom: 20px; } }
   .view-site-link:hover,
   .view-repo-link:hover {
-    color: white; }
+    color: #F8E9E7; }
   @media (min-width: 1000px) {
     .view-site-link:before,
     .view-repo-link:before {
@@ -347,7 +350,7 @@ section.projects-container {
     font-size: 1.5em;
     font-weight: bolder;
     text-transform: uppercase;
-    border-bottom: 5px solid white;
+    border-bottom: 5px solid #F8E9E7;
     padding: 25px; }
     @media (min-width: 1000px) {
       .sidebar h1 {
@@ -357,11 +360,16 @@ section.projects-container {
         padding-left: 0; } }
 
 .profile-image {
-  border-bottom: 5px solid white;
+  background-image: url('images/itme.jpg');
+  background-size: cover;
+  width: 200px;
+  height: 250px;
+  /* border-radius: 50%; */
+  border-bottom: 5px solid #F8E9E7;
   margin-bottom: 25px; }
 
 .sidebar-content {
-  border-bottom: 5px solid white; }
+  border-bottom: 5px solid #F8E9E7; }
   @media (min-width: 1000px) {
     .sidebar-content {
       padding: 25px;
@@ -376,12 +384,12 @@ section.projects-container {
   text-transform: uppercase;
   margin-bottom: 10px; }
   .sidebar-link a {
-    color: #CCCCCC;
+    color: #EF866A;
     font-size: 0.8em;
     -webkit-transition: all .4s ease-out;
     transition: all .4s ease-out; }
     .sidebar-link a:hover {
-      color: white; }
+      color: #F8E9E7; }
   .sidebar-link .fa {
     vertical-align: baseline;
     margin-right: 10px;
@@ -396,13 +404,13 @@ section.projects-container {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: white; }
+  background-color: #F8E9E7; }
   .sidebar-social-links-container .social-links li {
     display: inline-block;
     font-size: 1em;
     margin-right: 10px; }
   .sidebar-social-links-container .fa {
-    color: black; }
+    color: #282828; }
 
 .nav-toggle {
   position: absolute;
@@ -411,7 +419,7 @@ section.projects-container {
 .skills,
 .awards {
   margin-top: 25px;
-  border-top: 5px solid white;
+  border-top: 5px solid #F8E9E7;
   padding: 25px; }
   @media (min-width: 1000px) {
     .skills,
@@ -468,8 +476,8 @@ section.projects-container {
     .resume {
       margin-top: 50px; } }
   .resume .section {
-    background-color: black;
-    border: 1px solid white;
+    background-color: #282828;
+    /* border: 1px solid #F8E9E7; */
     margin-bottom: 25px; }
     @media (min-width: 1000px) {
       .resume .section {
@@ -489,6 +497,7 @@ section.projects-container {
       margin-bottom: 10px;
       position: relative; }
   .resume a {
+    color: #EF866A;
     -webkit-transition: all .4s ease-out;
     transition: all .4s ease-out; }
 
@@ -507,7 +516,7 @@ section.projects-container {
   position: fixed;
   top: 127px;
   right: -66px;
-  background: #00C66B;
+  /* background: #00C66B; */
   color: #232429;
   font-size: 12px;
   padding: 5px;
@@ -525,12 +534,12 @@ section.projects-container {
 
 .section.projects div,
 .work-experience div {
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid #F8E9E7; }
 
 h3, .date {
   text-transform: uppercase;
   font-weight: bold;
-  color: #AFAFAF;
+  color: #F6CABD;
   font-size: 14px;
   margin-bottom: 12px; }
 
